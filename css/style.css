@@ -1,0 +1,130 @@
+:root {
+  --main-color: #272b30;
+  --second-color: #32383e;
+  --page-loading: #272b30e3;
+  --font-main: "Nerko One", cursive;
+  --font-second: Comfortaa, cursive;
+  --nav-bar-color: rgb(58, 73, 123);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-main);
+}
+p,
+span,
+a {
+  font-family: var(--font-second);
+}
+ul li a {
+  color: #fff !important;
+}
+body {
+  background-color: var(--main-color);
+}
+
+/* Nav Bar */
+.navbar-custom {
+  background-color: var(--nav-bar-color);
+  border-radius: 15px;
+}
+
+.img-logo {
+  width: 20%;
+}
+.logo-title {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+#navbarSupportedContent .nav-item .nav-link {
+  font-family: var(--font-second);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.nav-item .nav-link {
+  transition: color 0.5s;
+}
+.nav-link.active {
+  color: #09c !important;
+}
+.nav-link:hover {
+  color: #09c !important;
+}
+/* /NavBar */
+
+/* HeroSection */
+
+.hero-section {
+  min-height: 40vh;
+  background-image: url("../img/wraper.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* /HeroSection */
+
+/* StartSection Content */
+.inner {
+  box-shadow: 0 0 10px #00000067;
+  border-radius: 15px;
+}
+.inner .div-padding {
+  padding: 20px;
+}
+.inner .title-content {
+  margin-top: 12px;
+}
+.inner .title-content h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.inner .title-content span {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  padding: 8px;
+  background-color: rgba(13, 110, 253, 0.3);
+}
+.inner p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.inner .content-footer {
+  border-top: 1px solid #00000021;
+  background-color: rgba(33, 37, 41, 0.3);
+  padding: 0.625rem;
+}
+.inner .content-footer span {
+  background-color: var(--second-color);
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  padding: 5px;
+}
+/* /StartSection Content */
